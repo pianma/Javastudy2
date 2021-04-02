@@ -1,0 +1,24 @@
+package chapter05;
+
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+		int genderValue = 2;
+		
+		Gender gender = Gender.getGender(genderValue);
+		switch(gender) {
+		case MALE:
+			System.out.println("남성을 위한 쿠폰 지급");
+			break;
+		case FEMALE:
+			System.out.println("여성을 위한 쿠폰 지급");
+			break;
+		}
+		
+	}
+}
+
+
+
